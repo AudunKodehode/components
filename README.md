@@ -14,8 +14,8 @@
 <h5>Accordion<h5>
 <h7>Example<h7>
 <p>
-  &lt;GithubRepoMapper<br />
-  &nbsp;username={"AudunKodehode"}<br />
+  &lt;Accordion<br />
+  &nbsp;title={"AudunKodehode"}<br />
   &nbsp;headerText={"Github Repos"}<br />
   /&gt;
 </p>
