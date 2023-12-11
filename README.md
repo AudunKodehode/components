@@ -17,6 +17,7 @@
   &lt;Accordion<br />
   &nbsp;title={"AudunKodehode"}<br />
   &nbsp;headerText={"Github Repos"}<br />
-  /&gt;
+  &gt;
+  &lt;
 </p>
 <br>
