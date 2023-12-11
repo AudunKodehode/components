@@ -1,0 +1,34 @@
+.github-user {
+  display: flex;
+  align-items: center;
+}
+
+.github-user .user-name {
+  font-size: 1.2em;
+  margin-right: 10px;
+}
+
+.github-user img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-repositories .card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.user-repositories .card .card-title {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.user-repositories .card .card-description {
+  font-size: 0.9em;
+  color: #555;
+}

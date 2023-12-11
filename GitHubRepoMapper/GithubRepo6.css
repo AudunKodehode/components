@@ -1,0 +1,22 @@
+.user-repositories .card {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.user-repositories .card .card-title {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.user-repositories .card .card-description {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.user-repositories .card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}

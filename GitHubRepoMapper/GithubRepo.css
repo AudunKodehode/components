@@ -1,0 +1,7 @@
+.github-user {
+  display: none;
+}
+.user-repositories .card-container {
+  display: flex;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=GithubRepo.css.map */

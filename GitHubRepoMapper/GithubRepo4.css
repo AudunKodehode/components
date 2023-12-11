@@ -1,0 +1,16 @@
+.user-repositories .card {
+  background-color: #f0f0f0;
+  box-shadow: 5px 5px 15px #c9c9c9, -5px -5px 15px #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.user-repositories .card .card-title {
+  font-size: 1.1em;
+  color: #333;
+}
+
+.user-repositories .card .card-description {
+  font-size: 0.9em;
+  color: #666;
+}
