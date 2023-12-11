@@ -4,6 +4,7 @@
 <h5>GithubRepoMapper<h5>
 <h7>Example<h7>
 
+<pre>
 <code>
 <p>
   &lt;GithubRepoMapper<br />
@@ -13,6 +14,8 @@
 </p>
 <br>
 </code>
+</pre>
+
 <hl>
 <pre>
 <code>
