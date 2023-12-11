@@ -11,13 +11,15 @@
 </p>
 <br>
 
-<h5>Accordion<h5>
-<h7>Example<h7>
-<p>
-  &lt;Accordion<br />
-  &nbsp;title={"AudunKodehode"}<br />
-  &nbsp;headerText={"Github Repos"}<br />
-  &gt;
-  &lt;
-</p>
-<br>
+<pre>
+<code>
+&lt;Accordion
+  title="Accordion 1"
+  className="accordion-1"
+  closedIcon=&#123;&lt;RiArrowDownSLine />&#125;
+  openIcon=&#123;&lt;RiArrowRightSLine />&#125;
+&gt;
+  &lt;p&gt;Content&lt;/p&gt;
+&lt;/Accordion&gt;
+</code>
+</pre>
