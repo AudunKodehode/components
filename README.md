@@ -3,6 +3,8 @@
 <br>
 <h5>GithubRepoMapper<h5>
 <h7>Example<h7>
+
+<code>
 <p>
   &lt;GithubRepoMapper<br />
   &nbsp;username={"AudunKodehode"}<br />
@@ -10,7 +12,8 @@
   /&gt;
 </p>
 <br>
-
+</code>
+<hl>
 <pre>
 <code>
 &lt;Accordion
