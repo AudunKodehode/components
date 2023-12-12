@@ -43,8 +43,6 @@
   buttonText="Fetch"
   data={["category", "delivery", "lang"]}
 &gt;
-  &lt;p&gt;Content&lt;/p&gt;
-&lt;/Accordion&gt;
 </code>
 </pre>
 
