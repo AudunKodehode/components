@@ -1,5 +1,4 @@
 <h1>ReactComponents<h1>
-
 <br>
 <h5>GithubRepoMapper<h5>
 <h7>Example<h7>
@@ -16,7 +15,25 @@
 </code>
 </pre>
 
-<hl>
+<h5>Accordion<h5>
+<h7>Example<h7>
+<b><p>react-icons is used</p></b>
+
+<pre>
+<code>
+&lt;Accordion
+  title="Accordion 1"
+  className="accordion-1"
+  closedIcon=&#123;&lt;RiArrowDownSLine />&#125;
+  openIcon=&#123;&lt;RiArrowRightSLine />&#125;
+&gt;
+  &lt;p&gt;Content&lt;/p&gt;
+&lt;/Accordion&gt;
+</code>
+</pre>
+
+<h5>SimpleFetch<h5>
+<h7>Example<h7>
 <pre>
 <code>
 &lt;Accordion
