@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
-const FetchDataComponent = ({ url }) => {
+const useFetchData = (url) => {
   const [data, setData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
@@ -30,7 +30,7 @@ const FetchDataComponent = ({ url }) => {
 
 const SimpleFetch = ({ url, debug, className, buttonText, data }) => {
   const [debugEnabled, setDebugEnabled] = useState(false);
-  const [fetchedData, , error, refetchData] = FetchDataComponent({ url });
+  const [fetchedData, , error, refetchData] = useFetchData(url);
 
   useEffect(() => {
     if (debug) {
