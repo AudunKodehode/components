@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 
 export default function Accordion({
@@ -7,7 +7,15 @@ export default function Accordion({
   className,
   closedIcon,
   openIcon,
+  open,
 }) {
+  useEffect(() => {
+    if (open) {
+      setAccordionOpen(true);
+    } else {
+      setAccordionOpen(false);
+    }
+  }, [open]);
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   const toggleAccordion = () => {
@@ -15,10 +23,9 @@ export default function Accordion({
   };
 
   return (
-    <div className={`accordion ${className}`}>
+    <div className={`accordion ${className}`} onClick={toggleAccordion}>
       <div
         className="accordion-header"
-        onClick={toggleAccordion}
         style={{ cursor: "pointer", display: "flex", alignItems: "center" }}
       >
         <h4>{title}</h4>
@@ -31,9 +38,10 @@ export default function Accordion({
 }
 
 Accordion.propTypes = {
-  title: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired,
+  title: PropTypes.string,
+  children: PropTypes.node,
   className: PropTypes.string,
-  closedIcon: PropTypes.element.isRequired,
-  openIcon: PropTypes.element.isRequired,
+  closedIcon: PropTypes.element,
+  openIcon: PropTypes.element,
+  open: PropTypes.bool,
 };
