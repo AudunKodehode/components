@@ -37,11 +37,11 @@
 <pre>
 <code>
 &lt;SimpleFetch
-  url="https://v2.jokeapi.dev/joke/Any"
-  debug
-  className={"simple-fetch"}
-  buttonText="Fetch"
-  data={["category", "delivery", "lang"]}
+  url="https://v2.jokeapi.dev/joke/Any"         // URL FOR FETCH *REQUIRED*
+  debug                                         // ENABLES CONSOLE OUTPUT
+  className={"simple-fetch"}                    // DIV CLASSNAME
+  buttonText="Fetch"                            // BUTTON TEXT TO REFRESH FETCH
+  data={["category", "delivery", "lang"]}       // ARRAY SPECIFICATION
 &gt;
 </code>
 </pre>
