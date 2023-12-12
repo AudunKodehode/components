@@ -36,13 +36,15 @@
 <h7>Example<h7>
 <pre>
 <code>
-&lt;Accordion
-  title="Accordion 1"
-  className="accordion-1"
-  closedIcon=&#123;&lt;RiArrowDownSLine />&#125;
-  openIcon=&#123;&lt;RiArrowRightSLine />&#125;
+&lt;SimpleFetch
+  url="https://v2.jokeapi.dev/joke/Any"
+  debug
+  className={"simple-fetch"}
+  buttonText="Fetch"
+  data={["category", "delivery", "lang"]}
 &gt;
   &lt;p&gt;Content&lt;/p&gt;
 &lt;/Accordion&gt;
 </code>
 </pre>
+
