@@ -41,7 +41,7 @@
   debug                                         // ENABLES CONSOLE OUTPUT
   className={"simple-fetch"}                    // DIV CLASSNAME
   buttonText="Fetch"                            // BUTTON TEXT TO REFRESH FETCH
-  data={["category", "delivery", "lang"]}       // ARRAY SPECIFICATION
+  data={["category", "delivery", "lang"]}       // ARRAY SPECIFICATION, CREATES A NEW P-TAG FOR EACH ELEMENT
 &gt;
 </code>
 </pre>
